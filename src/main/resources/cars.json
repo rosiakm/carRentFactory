@@ -1,0 +1,57 @@
+{
+  "cars" : [ {
+    "brand" : "Kia",
+    "model" : "Sportage",
+    "prodYear" : 2023,
+    "id" : 1,
+    "isAvailable" : true,
+    "rentDetails" : {
+      "rentExpireDate" : null
+    }
+  }, {
+    "brand" : "Toyota",
+    "model" : "CH-R",
+    "prodYear" : 2015,
+    "id" : 2,
+    "isAvailable" : true,
+    "rentDetails" : {
+      "rentExpireDate" : null
+    }
+  }, {
+    "brand" : "Hyundai",
+    "model" : "Tucson",
+    "prodYear" : 2017,
+    "id" : 3,
+    "isAvailable" : true,
+    "rentDetails" : {
+      "rentExpireDate" : null
+    }
+  }, {
+    "brand" : "Renault",
+    "model" : "Captur",
+    "prodYear" : 2016,
+    "id" : 4,
+    "isAvailable" : true,
+    "rentDetails" : {
+      "rentExpireDate" : null
+    }
+  }, {
+    "brand" : "Peugeot",
+    "model" : "3008",
+    "prodYear" : 2023,
+    "id" : 5,
+    "isAvailable" : true,
+    "rentDetails" : {
+      "rentExpireDate" : null
+    }
+  }, {
+    "brand" : "Peugeot",
+    "model" : "3008",
+    "prodYear" : 2022,
+    "id" : 6,
+    "isAvailable" : true,
+    "rentDetails" : {
+      "rentExpireDate" : null
+    }
+  } ]
+}

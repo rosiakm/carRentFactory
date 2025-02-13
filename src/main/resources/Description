@@ -1,0 +1,31 @@
+Zadanie polega na zaprojektowaniu prostego systemu dla wypożyczalni samochodów.
+
+Lista samochodów ma być przetrzymywana w pliku json, który ma nadpisywać się w przypadku zmian.
+W zadaniu należy zaprojektować klasy modelowe odwzorowujące strukturę pliku json.
+Klasa Car ma mieć następujące atrybuty:
+- marka
+- model
+- rok produkcji
+- numer id
+- stan dostępności do wynajęcia
+- dane związane z samym wynajęciem
+
+Użytkownik ma mieć możliwość:
+*Dodania nowego samochodu do listy -> w celu dodania nowego samochodu, użytkownik podaje markę, model i rok produkcji
+a system automatycznie przypisuje mu unikalny numer id oraz ustawia flagę dostępności do wynajęcia
+
+* Wypisania kompletnej listy pojazdów przechowywanych w pliku json
+
+* Wypisania samochodów o wskazanej marce i modelu wraz z wyliczonym wiekiem auta
+
+* Wypisanie samochodów o minimalnym wieku produkcji
+
+* Wypożyczenie samochodu na podstawie podanego id -> wypożyczając samochód system ma sprawdzić czy samochód nie jest już
+ wypożyczony, następnie zmienić flagę jego dostępności i ustawić termin zwrotu po 14 dniach. Wszystkie te zmiany mają
+ być nadpisane w pliku json
+
+ * Zwrócić wypożyczony samochód na podstawie podanego id -> zwracając samochód system ma sprawdzić czy samochód w ogóle
+ był wypożyczony, następnie zmienić flagę jego dostępności. Następnie system sprawdza czy samochód nie został oddany po
+ terminie. Jeśli tak, to za każdy dzień opóźnienia ma być naliczona kara 100$. System wylicza na tej podstawie ostateczną
+ kwotę kary. Na końcu system usuwa w pliku json wpisaną wcześniej datę zwrotu auta. Samochód staje się ponownie dostępny
+ do wynajęcia.
